@@ -1,0 +1,27 @@
+{
+  "name": "bplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "lint": "esw src webpack.config --color",
+    "lint:watch": "npm run lint -- --watch"
+  },
+  "keywords": [],
+  "author": "n-j-m (https://github.com/n-j-m)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.5.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-watch": "^3.1.0",
+    "standard": "^10.0.2",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
